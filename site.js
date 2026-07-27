@@ -220,6 +220,23 @@
     }
   }
 
+  // Alternância de tema (claro/escuro) — a classe inicial é definida por um
+  // script inline no <head> para evitar flash; aqui só tratamos o clique.
+  var themeBtn = document.querySelector('[data-theme-toggle]');
+  if (themeBtn) {
+    var syncTheme = function () {
+      var dark = document.documentElement.classList.contains('dark');
+      themeBtn.setAttribute('aria-pressed', String(dark));
+      themeBtn.setAttribute('aria-label', dark ? 'Mudar para tema claro' : 'Mudar para tema escuro');
+    };
+    syncTheme();
+    themeBtn.addEventListener('click', function () {
+      var dark = document.documentElement.classList.toggle('dark');
+      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+      syncTheme();
+    });
+  }
+
   // Ano no rodapé
   document.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = new Date().getFullYear();
