@@ -12,3 +12,6 @@
 !*.webp
 !*.ico
 !CNAME
+
+# Pasta interna da ferramenta (Open Design) — fora do repositório
+.od-skills/
