@@ -248,7 +248,16 @@ svg, img, video { max-width: 100%; }
 .kanban__card--won .v { color: var(--success-ink); }
 .kanban__card--won .m { color: color-mix(in srgb, var(--success-ink) 80%, var(--success-soft)); }
 /* cartão "em arraste" durante a animação demonstrativa */
-.kanban__card--drag { box-shadow: var(--shadow-md); position: relative; z-index: 5; }
+.kanban__card--drag { box-shadow: var(--shadow-lg); position: relative; z-index: 5; }
+
+/* cursor simulado que arrasta os cartões (só na home) */
+.kbd-cursor { position: absolute; top: 0; left: 0; width: 30px; height: 30px; z-index: 40; pointer-events: none; opacity: 0; will-change: transform; }
+.kbd-cursor.is-on { opacity: 1; }
+.kbd-cursor svg { position: absolute; top: 0; left: 0; overflow: visible; filter: drop-shadow(0 2px 3px color-mix(in srgb, var(--fg) 34%, transparent)); transition: opacity 0.12s var(--ease); }
+.kbd-cursor__arrow { transform: translate(-2px, -2px); }
+.kbd-cursor__hand { transform: translate(-14px, -14px); opacity: 0; }
+.kbd-cursor.is-grab .kbd-cursor__arrow { opacity: 0; }
+.kbd-cursor.is-grab .kbd-cursor__hand { opacity: 1; }
 
 /* ---------- Faixa de destaque ---------- */
 .spotlight { background: var(--accent); color: var(--bg); border-radius: var(--radius-lg); overflow: hidden; }
@@ -387,6 +396,19 @@ svg, img, video { max-width: 100%; }
   .footer__grid { grid-template-columns: 1fr; }
   .hero__actions { flex-direction: column; align-items: stretch; }
   .hero__actions .btn { width: 100%; }
+}
+
+/* Kanban compacto no mobile — evita o texto dos cartões e cabeçalhos vazarem */
+@media (max-width: 500px) {
+  .kanban { gap: 6px; }
+  .kanban__col { padding: 8px 5px; border-radius: 8px; }
+  .kanban__h { font-size: 8.5px; letter-spacing: 0.01em; gap: 4px; margin: 2px 1px 8px; }
+  .kanban__h span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .kanban__h [data-count] { flex: none; }
+  .kanban__card { padding: 7px 8px; border-radius: 7px; }
+  .kanban__card .t { font-size: 11px; line-height: 1.25; overflow-wrap: anywhere; }
+  .kanban__card .v { font-size: 10.5px; overflow-wrap: anywhere; }
+  .kanban__card .m { font-size: 9.5px; overflow-wrap: anywhere; }
 }
 
 /* ---------- Menu Produtos (dropdown) ---------- */
