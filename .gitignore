@@ -1,0 +1,14 @@
+# Tudo ignorado por padrão — só arquivos de site entram no repositório
+*
+!*/
+!.gitignore
+!README.md
+!*.html
+!*.css
+!*.js
+!*.png
+!*.jpg
+!*.svg
+!*.webp
+!*.ico
+!CNAME

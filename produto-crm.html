@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Tech CRM Suite · CRM omnichannel assistido por IA | Core Technology</title>
+<meta name="description" content="CRM multi-tenant, modular e assistido por IA: inbox omnichannel com WhatsApp, oportunidades, copiloto de IA, automação, Loja de expansão, módulos e add-ons.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<header class="nav" data-nav data-open="false" data-od-id="site-nav">
+  <div class="wrap nav__inner">
+    <a href="index.html" class="brand" aria-label="Core Technology, início">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="30" height="30" rx="8" fill="var(--accent)"/>
+        <path d="M22 11.5a7 7 0 1 0 0 9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="2.4" fill="#ffffff"/>
+      </svg>
+      <span><span class="brand__name">Core Technology</span><small>Tecnologia &amp; Sistemas</small></span>
+    </a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <div class="nav__drop" data-drop>
+        <a href="produtos.html" class="nav__drop-toggle" aria-current="page" aria-haspopup="true" aria-expanded="false">Produtos
+          <svg class="nav__caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav__menu">
+          <a href="produto-crm.html" class="nav__menu-item" aria-current="page">
+            <span class="nav__menu-title">Core Tech CRM</span>
+            <span class="nav__menu-desc">CRM omnichannel com IA para vender e atender</span>
+          </a>
+          <span class="nav__menu-soon">Mais produtos em breve</span>
+        </div>
+      </div>
+      <a href="contato.html">Contato</a>
+      <a href="contato.html" class="btn btn--primary nav__cta">Fale com a gente</a>
+    </nav>
+    <button class="nav__burger" data-burger aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- Hero do produto -->
+<section class="hero" data-od-id="produto-hero">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy reveal in">
+      <span class="eyebrow">Core Tech CRM Suite</span>
+      <h1>O CRM que coloca a <em>conversa</em> e a <em>IA</em> no centro da venda.</h1>
+      <p class="hero__lede">Junta o WhatsApp, as oportunidades e o relacionamento num lugar só, com IA ajudando a atender e a fechar. Serve do autônomo à equipe, e fala a língua do seu segmento.</p>
+      <div class="hero__actions">
+        <a href="contato.html" class="btn btn--primary btn--lg">Solicitar demonstração
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#planos" class="btn btn--ghost btn--lg">Ver planos</a>
+      </div>
+      <div class="hero__meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> WhatsApp Oficial e Evolution API</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Copiloto de IA em todos os planos</span>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal in" aria-hidden="true">
+      <div class="mock" data-od-id="produto-inbox-mockup">
+        <div class="mock__bar">
+          <span class="mock__dots"><i></i><i></i><i></i></span>
+          <span class="mock__addr">Inbox · atendimento omnichannel</span>
+        </div>
+        <div class="mock__body">
+          <aside class="mock__side">
+            <div class="lbl">Filas</div>
+            <div class="mock__navitem is-active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Comercial</div>
+            <div class="mock__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg> Suporte</div>
+            <div class="lbl" style="margin-top:16px">IA</div>
+            <div class="mock__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg> Copiloto</div>
+          </aside>
+          <div class="mock__main">
+            <div class="mock__row">
+              <span class="mock__title">Marina Rocha</span>
+              <span class="mock__credits"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg> IA <b>2.480</b></span>
+            </div>
+            <div class="thread is-active">
+              <span class="avatar">MR</span>
+              <div class="thread__body">
+                <div class="thread__top"><span class="thread__name">Áudio · 0:42</span><span class="thread__time">agora</span></div>
+                <p class="thread__msg">Transcrição pelo copiloto disponível</p>
+                <span class="chip chip--wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2z"/></svg> WhatsApp Oficial</span>
+              </div>
+            </div>
+            <div class="thread">
+              <span class="avatar" style="background:var(--accent-wash)">IA</span>
+              <div class="thread__body">
+                <div class="thread__top"><span class="thread__name">Resposta sugerida</span><span class="thread__time">editável</span></div>
+                <p class="thread__msg">"Oi, Marina! Sim, atendemos no fim de semana."</p>
+                <span class="chip">Aprovar antes de enviar</span>
+              </div>
+            </div>
+            <div class="thread">
+              <span class="avatar">JP</span>
+              <div class="thread__body">
+                <div class="thread__top"><span class="thread__name">João Prado</span><span class="thread__time">08:12</span></div>
+                <p class="thread__msg">Proposta aceita · lead → cliente</p>
+                <span class="chip">Automação disparada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Diferenciais -->
+<section class="section section--surface" data-od-id="produto-diferenciais">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Três apostas de produto</span>
+      <h2>O que faz o Core Tech CRM Suite diferente de um CRM genérico.</h2>
+    </div>
+    <div class="grid grid--3">
+      <article class="card reveal" data-od-id="dif-atendimento">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Atendimento como núcleo</h3>
+        <p>O atendimento já vem no plano base, não é um add-on. Cada lead e cliente carrega o histórico da conversa, que segue com ele entre canais e times, sem cadastro repetido.</p>
+      </article>
+      <article class="card reveal" data-od-id="dif-ia">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div>
+        <h3>IA embutida, não empilhada</h3>
+        <p>O copiloto trabalha junto desde o plano base: transcreve o áudio, resume a conversa, sugere a resposta e pontua o lead. Para atendimento automático, o agente de IA entra como add-on.</p>
+      </article>
+      <article class="card reveal" data-od-id="dif-nicho">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 9v11"/></svg></div>
+        <h3>Especialização por nicho</h3>
+        <p>O sistema fala a língua do seu segmento. Os termos e as telas se ajustam ao seu negócio, e funções do seu nicho entram sem virar um sistema à parte.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Capacidades da base -->
+<section class="section" data-od-id="produto-core">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Incluso em todos os planos</span>
+      <h2>Tudo isto já vem na assinatura base.</h2>
+      <p>Você começa a vender e a atender no primeiro dia, sem depender de nada extra. Módulos e add-ons entram depois, quando a operação pedir.</p>
+    </div>
+    <div class="grid grid--3">
+      <article class="feat reveal" data-od-id="core-inbox">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>Inbox omnichannel</h3></div>
+        <ul>
+          <li>WhatsApp via API Oficial e Evolution API</li>
+          <li>Filas de atendimento com roteamento por regra</li>
+          <li>Histórico único do Contato entre filas e canais</li>
+          <li>Templates, respostas rápidas e notas internas</li>
+        </ul>
+      </article>
+      <article class="feat reveal" data-od-id="core-oportunidades">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18M8 15l3-4 3 2 4-6"/></svg></div><h3>Oportunidades</h3></div>
+        <ul>
+          <li>Múltiplos pipelines com etapas configuráveis</li>
+          <li>Visualização Kanban e em lista</li>
+          <li>Propostas montadas a partir do catálogo</li>
+          <li>Acompanhamento de visualização e aceite</li>
+        </ul>
+      </article>
+      <article class="feat reveal" data-od-id="core-captacao">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 11 22 2l-9 19-2-8z"/></svg></div><h3>Captação</h3></div>
+        <ul>
+          <li>Formulários dinâmicos com regras condicionais</li>
+          <li>Landing pages e página de bio para Instagram</li>
+          <li>Origem sempre identificada: canal, campanha, UTM</li>
+          <li>Contato e oportunidade criados na submissão</li>
+        </ul>
+      </article>
+      <article class="feat reveal" data-od-id="core-copiloto">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div><h3>Copiloto de IA</h3></div>
+        <ul>
+          <li>Transcrição de áudios e resumo de conversas</li>
+          <li>Sugestão de resposta, editável antes do envio</li>
+          <li>Qualificação e pontuação de leads</li>
+          <li>Redação assistida de propostas</li>
+        </ul>
+      </article>
+      <article class="feat reveal" data-od-id="core-orquestracao">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H14a4 4 0 0 1 4 4v5.5"/></svg></div><h3>Motor de orquestração</h3></div>
+        <ul>
+          <li>Automações disparadas por eventos do CRM</li>
+          <li>Fluxos conversacionais no inbox</li>
+          <li>Condições, ramificações, esperas e erro</li>
+          <li>Histórico de execução com diagnóstico</li>
+        </ul>
+      </article>
+      <article class="feat reveal" data-od-id="core-clientes">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div><h3>Clientes &amp; Agenda</h3></div>
+        <ul>
+          <li>Visão 360°: conversas, propostas, pedidos e contratos</li>
+          <li>Pedidos de venda e registro de recebimento</li>
+          <li>Contratos a partir de modelos</li>
+          <li>Agenda com sincronização Google bidirecional</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="grid grid--3 reveal" style="margin-top:20px">
+      <article class="feat" data-od-id="core-loja">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 6h18l-2 12H5z"/><path d="M3 6 2 3H0M8 11h8"/></svg></div><h3>Loja self-service</h3></div>
+        <p>Contrate módulos, add-ons e créditos de dentro da aplicação, com provisionamento automático. Cancele quando quiser, com vigência até o fim do ciclo.</p>
+      </article>
+      <article class="feat" data-od-id="core-portal">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg></div><h3>Portal do Contato</h3></div>
+        <p>Área somente leitura para o cliente final consultar as propostas recebidas e os pedidos realizados, com a marca da sua empresa.</p>
+      </article>
+      <article class="feat" data-od-id="core-relatorios">
+        <div class="feat__head"><div class="feat__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18"/><rect x="7" y="10" width="3" height="7"/><rect x="13" y="6" width="3" height="11"/></svg></div><h3>Relatórios &amp; plataforma</h3></div>
+        <p>Funil, conversão por etapa, produtividade e consumo. Sobre uma plataforma multi-tenant com RBAC, campos customizados e auditoria.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Add-ons e módulos -->
+<section class="section section--surface" id="addons" data-od-id="produto-addons">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Expansão</span>
+      <h2>Cresça por profundidade, sem trocar de sistema.</h2>
+      <p>Módulos ampliam o que o sistema cobre. Add-ons reforçam algo que o CRM já faz. Você contrata cada item sozinho, sem pacote amarrado.</p>
+    </div>
+
+    <p class="tile__tag reveal" style="margin-bottom:12px">Módulos</p>
+    <div class="tiles reveal" style="margin-bottom:32px">
+      <div class="tile" data-od-id="mod-financeiro">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> Financeiro</span>
+        <p>Contas a receber com conciliação, contas a pagar, fluxo de caixa e centros de custo.</p>
+      </div>
+      <div class="tile" data-od-id="mod-nicho">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 2 3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg> Operação por nicho</span>
+        <p>Adapta terminologia e adiciona funções do segmento. Nicho de referência: fotografia (agenda, galeria, entrega).</p>
+      </div>
+    </div>
+
+    <p class="tile__tag reveal" style="margin-bottom:12px">Add-ons</p>
+    <div class="tiles reveal">
+      <div class="tile" data-od-id="add-instagram">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1"/></svg> Instagram &amp; Telegram</span>
+        <p>Instagram e Telegram no mesmo inbox do WhatsApp, com a conversa toda junta.</p>
+      </div>
+      <div class="tile" data-od-id="add-agente">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V4M8 14h.01M16 14h.01"/></svg> Agente de IA autônomo</span>
+        <p>Atendimento conduzido por IA com base de conhecimento própria (RAG), guardrails e escalonamento para a fila humana.</p>
+      </div>
+      <div class="tile" data-od-id="add-assinatura">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17c3-6 7 6 10 0s5-2 8 0"/><path d="M4 21h16"/></svg> Assinatura digital</span>
+        <p>Envio e coleta de assinatura de contratos via provedor externo, com fluxo próprio.</p>
+      </div>
+      <div class="tile" data-od-id="add-cobranca">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg> Cobrança e recebimento</span>
+        <p>Gere cobranças (Pix, boleto, cartão) a partir do pedido de venda, conectando a conta Asaas da própria empresa.</p>
+      </div>
+      <div class="tile" data-od-id="add-marca">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg> Marca própria</span>
+        <p>Domínio próprio e personalização visual, alternativa ao plano Avançado para quem quer o CRM com a marca da casa.</p>
+      </div>
+      <div class="tile" data-od-id="add-consumiveis">
+        <span class="tile__k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg> Consumíveis</span>
+        <p>Créditos de IA, conversas de WhatsApp, documentos assinados e armazenamento, medidos, visíveis e cobrados por uso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Planos -->
+<section class="section" id="planos" data-od-id="produto-planos">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <span class="eyebrow">Planos</span>
+      <h2>Do autônomo à equipe estruturada.</h2>
+      <p>Três planos sobre a mesma base. Módulos, add-ons e créditos são contratáveis em qualquer um deles pela Loja.</p>
+    </div>
+    <div class="plans reveal">
+      <!-- Essencial -->
+      <div class="plan" data-od-id="plano-essencial">
+        <h3>Essencial</h3>
+        <p class="plan__for">Autônomo e operação individual: uma pessoa que capta, atende, negocia e cobra.</p>
+        <div class="plan__price"><b>Base indivisível</b>Preço sob consulta</div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 1 fila de atendimento</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 1 número de WhatsApp</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Copiloto de IA (crédito mínimo incluso)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Automações básicas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Campos customizados limitados</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg> API pública e webhooks</li>
+        </ul>
+        <a href="contato.html" class="btn btn--ghost">Falar sobre o Essencial</a>
+      </div>
+
+      <!-- Profissional -->
+      <div class="plan plan--feat" data-od-id="plano-profissional">
+        <span class="plan__flag">Mais escolhido</span>
+        <h3>Profissional</h3>
+        <p class="plan__for">PME com equipe comercial que precisa distribuir atendimento e ter visão gerencial.</p>
+        <div class="plan__price"><b>Base + expansão</b>Preço sob consulta</div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Múltiplas filas de atendimento</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Múltiplos números de WhatsApp</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Crédito de IA intermediário</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Automações ampliadas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> API pública e webhooks de eventos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Suporte prioritário</li>
+        </ul>
+        <a href="contato.html" class="btn btn--primary">Solicitar demonstração</a>
+      </div>
+
+      <!-- Avançado -->
+      <div class="plan" data-od-id="plano-avancado">
+        <h3>Avançado</h3>
+        <p class="plan__for">Operação estruturada com múltiplas equipes e requisitos de marca e controle.</p>
+        <div class="plan__price"><b>Base + marca própria</b>Preço sob consulta</div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Tudo do Profissional</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Crédito de IA ampliado</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Campos customizados ilimitados</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Domínio próprio</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> BYOK (sua própria chave de IA)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Suporte prioritário</li>
+        </ul>
+        <a href="contato.html" class="btn btn--ghost">Falar sobre o Avançado</a>
+      </div>
+    </div>
+    <p class="form__note reveal" style="text-align:center;margin-top:20px">Preços são definidos por operação. Fale com a gente para uma proposta com os módulos e o consumo da sua empresa.</p>
+  </div>
+</section>
+
+<!-- Créditos sempre visíveis -->
+<section class="section section--surface" data-od-id="produto-creditos">
+  <div class="wrap quote reveal">
+    <span class="eyebrow" style="justify-content:center">Consumo sem surpresa</span>
+    <p style="margin-top:18px">O saldo de créditos de IA fica sempre visível no cabeçalho, com alerta antecipado e recarga a um clique. Ao zerar, o copiloto degrada com aviso e o resto do CRM segue funcionando. O cliente nunca é abandonado no meio do atendimento.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" data-od-id="produto-cta">
+  <div class="wrap cta-band reveal">
+    <span class="eyebrow" style="justify-content:center">Veja funcionando</span>
+    <h2 style="margin-top:16px">Agende uma demonstração do Core Tech CRM Suite.</h2>
+    <p>Mostramos o inbox, o copiloto e a automação com um cenário parecido com o da sua operação.</p>
+    <div class="hero__actions">
+      <a href="contato.html" class="btn btn--primary btn--lg">Solicitar demonstração
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" data-od-id="site-footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="brand" aria-label="Core Technology">
+          <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="30" height="30" rx="8" fill="var(--accent)"/>
+            <path d="M22 11.5a7 7 0 1 0 0 9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="2.4" fill="#ffffff"/>
+          </svg>
+          <span><span class="brand__name">Core Technology</span><small>Tecnologia &amp; Sistemas</small></span>
+        </a>
+        <p>Consultoria, desenvolvimento com IA, automação e integração, com um portfólio próprio de SaaS e Micro-SaaS.</p>
+      </div>
+      <div>
+        <h5>Empresa</h5>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Produtos</h5>
+        <ul>
+          <li><a href="produtos.html">Catálogo</a></li>
+          <li><a href="produto-crm.html">Core Tech CRM</a></li>
+          <li><a href="produto-crm.html#planos">Planos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="mailto:contato@coretechnology.com.br">contato@coretechnology.com.br</a></li>
+          <li><a href="contato.html">Formulário de contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© <span data-year>2026</span> Core Technology. Todos os direitos reservados.</span>
+      <span>coretechnology.com.br</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js?v=3"></script>
+</body>
+</html>

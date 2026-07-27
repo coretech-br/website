@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serviços · Core Technology</title>
+<meta name="description" content="Consultoria em tecnologia, automação de processos, integração de sistemas e desenvolvimento de websites e sistemas personalizados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<header class="nav" data-nav data-open="false" data-od-id="site-nav">
+  <div class="wrap nav__inner">
+    <a href="index.html" class="brand" aria-label="Core Technology, início">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="30" height="30" rx="8" fill="var(--accent)"/>
+        <path d="M22 11.5a7 7 0 1 0 0 9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="2.4" fill="#ffffff"/>
+      </svg>
+      <span><span class="brand__name">Core Technology</span><small>Tecnologia &amp; Sistemas</small></span>
+    </a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="servicos.html" aria-current="page">Serviços</a>
+      <div class="nav__drop" data-drop>
+        <a href="produtos.html" class="nav__drop-toggle" aria-haspopup="true" aria-expanded="false">Produtos
+          <svg class="nav__caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav__menu">
+          <a href="produto-crm.html" class="nav__menu-item">
+            <span class="nav__menu-title">Core Tech CRM</span>
+            <span class="nav__menu-desc">CRM omnichannel com IA para vender e atender</span>
+          </a>
+          <span class="nav__menu-soon">Mais produtos em breve</span>
+        </div>
+      </div>
+      <a href="contato.html">Contato</a>
+      <a href="contato.html" class="btn btn--primary nav__cta">Fale com a gente</a>
+    </nav>
+    <button class="nav__burger" data-burger aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- Cabeçalho da página -->
+<section class="section" style="padding-bottom:0" data-od-id="servicos-hero">
+  <div class="wrap">
+    <div class="section__head reveal in" style="max-width:720px">
+      <span class="eyebrow">Serviços</span>
+      <h2 style="font-size:clamp(32px,5vw,52px)">Quatro frentes para tirar a sua operação do improviso.</h2>
+      <p>Contrate uma frente isolada ou combine todas num só projeto. Nos dois casos, entregamos com decisão registrada e código que a sua equipe mantém depois.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Consultoria -->
+<section class="section" data-od-id="servico-consultoria">
+  <div class="wrap split reveal">
+    <div class="split__copy">
+      <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v2M12 19v2M5 12H3M21 12h-2M6.3 6.3 4.9 4.9M19.1 19.1l-1.4-1.4M17.7 6.3l1.4-1.4M4.9 19.1l1.4-1.4"/><circle cx="12" cy="12" r="3.2"/></svg></div>
+      <h3 style="font-size:clamp(24px,3.2vw,30px);letter-spacing:-0.02em">Consultoria em tecnologia</h3>
+      <p style="margin-top:14px;color:var(--fg-mute);font-size:17px">Antes de construir, entender. Mapeamos a operação, identificamos onde o dado se perde e desenhamos a arquitetura, definindo o que construir, comprar ou integrar.</p>
+    </div>
+    <div class="split__media">
+      <div class="feat" data-od-id="consultoria-lista">
+        <h3>Nossa abordagem</h3>
+        <ul>
+          <li>Diagnóstico da operação e dos processos comerciais</li>
+          <li>Arquitetura de solução e escolha tecnológica</li>
+          <li>Roadmap de entregas em ondas, com critérios de saída</li>
+          <li>Análise de dependências e riscos antes do desenvolvimento</li>
+          <li>Governança de dados: base legal, retenção e auditoria</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Automação -->
+<section class="section section--surface" data-od-id="servico-automacao">
+  <div class="wrap split reveal">
+    <div class="split__copy">
+      <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4"/><circle cx="12" cy="12" r="3"/></svg></div>
+      <h3 style="font-size:clamp(24px,3.2vw,30px);letter-spacing:-0.02em">Automação de processos</h3>
+      <p style="margin-top:14px;color:var(--fg-mute);font-size:17px">Tarefa manual repetida é erro esperando acontecer. Construímos fluxos orientados a eventos que executam ações sozinhos e liberam o time para o que exige gente.</p>
+    </div>
+    <div class="split__media">
+      <div class="feat" data-od-id="automacao-lista">
+        <h3>Nossa abordagem</h3>
+        <ul>
+          <li>Fluxos disparados por eventos: lead criado, etapa alterada, prazo vencido</li>
+          <li>Ações encadeadas: enviar mensagem, criar tarefa, mover oportunidade, chamar webhook</li>
+          <li>Condições, ramificações, esperas e tratamento de erro</li>
+          <li>Réguas de relacionamento e lembretes automáticos</li>
+          <li>Histórico de execução com diagnóstico de falhas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Integração -->
+<section class="section" data-od-id="servico-integracao">
+  <div class="wrap split reveal">
+    <div class="split__copy">
+      <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8 7H6a4 4 0 0 0 0 8h2M16 7h2a4 4 0 0 1 0 8h-2M8 11h8"/></svg></div>
+      <h3 style="font-size:clamp(24px,3.2vw,30px);letter-spacing:-0.02em">Integração de sistemas</h3>
+      <p style="margin-top:14px;color:var(--fg-mute);font-size:17px">Cada ferramenta fala uma língua. Nós fazemos a tradução: APIs, webhooks e conectores que mantêm CRM, gateway de pagamento, agenda e e-mail sincronizados.</p>
+    </div>
+    <div class="split__media">
+      <div class="feat" data-od-id="integracao-lista">
+        <h3>Nossa abordagem</h3>
+        <ul>
+          <li>Integração via API pública REST e webhooks de eventos</li>
+          <li>Canais de mensagem sob a mesma abstração (WhatsApp, Instagram, Telegram)</li>
+          <li>Sincronização bidirecional com agenda (Google Agenda)</li>
+          <li>Conexão com meios de pagamento e cobrança (ex.: Asaas)</li>
+          <li>Importação e migração de dados com mapeamento e prévia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Desenvolvimento -->
+<section class="section section--surface" data-od-id="servico-desenvolvimento">
+  <div class="wrap split reveal">
+    <div class="split__copy">
+      <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 6l-2 12"/></svg></div>
+      <h3 style="font-size:clamp(24px,3.2vw,30px);letter-spacing:-0.02em">Websites e sistemas personalizados</h3>
+      <p style="margin-top:14px;color:var(--fg-mute);font-size:17px">Do site institucional ao sistema web multi-tenant. Desenvolvemos com código mantível, responsividade real e a mesma disciplina de entrega em fatias.</p>
+    </div>
+    <div class="split__media">
+      <div class="feat" data-od-id="desenvolvimento-lista">
+        <h3>Nossa abordagem</h3>
+        <ul>
+          <li>Sites institucionais, landing pages e portais</li>
+          <li>Sistemas web personalizados, multi-tenant e escaláveis</li>
+          <li>Controle de acesso por papel (RBAC) e autenticação</li>
+          <li>Aplicações instaláveis com notificações push e uso em mobile</li>
+          <li>Do protótipo à produção, com prova a cada fatia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Catálogo SaaS -->
+<section class="section" data-od-id="servico-saas">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <span class="eyebrow">Catálogo de software</span>
+      <h2>Além dos projetos, software próprio pronto para assinar.</h2>
+      <p>A Core Technology mantém um catálogo de SaaS e Micro SaaS. Quando já existe um produto pronto que resolve o seu problema, você não paga desenvolvimento: assina e começa a usar.</p>
+    </div>
+    <div class="reveal" style="max-width:760px;margin-inline:auto">
+      <div class="spotlight" data-od-id="saas-spotlight">
+        <div class="spotlight__inner">
+          <div>
+            <span class="eyebrow">Carro-chefe</span>
+            <h2 style="margin-top:12px">Core Tech CRM Suite</h2>
+            <p>CRM multi-tenant assistido por IA, com inbox omnichannel, oportunidades, automação e Loja de expansão. Vendável e útil desde a assinatura base.</p>
+            <div class="spotlight__pills">
+              <span>Inbox WhatsApp</span><span>Copiloto de IA</span><span>Automação</span><span>Multi-tenant</span>
+            </div>
+            <div class="hero__actions" style="margin-top:26px">
+              <a href="produto-crm.html" class="btn btn--primary">Conhecer o produto</a>
+            </div>
+          </div>
+          <div aria-hidden="true">
+            <div class="mock" style="box-shadow:none;border-color:color-mix(in srgb,#ffffff 30%,transparent)">
+              <div class="mock__bar" style="background:color-mix(in srgb,#ffffff 12%,transparent);border-color:color-mix(in srgb,#ffffff 24%,transparent)">
+                <span class="mock__dots"><i style="background:color-mix(in srgb,#ffffff 45%,transparent)"></i><i style="background:color-mix(in srgb,#ffffff 45%,transparent)"></i><i style="background:color-mix(in srgb,#ffffff 45%,transparent)"></i></span>
+                <span class="mock__addr" style="color:#ffffff;background:color-mix(in srgb,#ffffff 12%,transparent);border-color:color-mix(in srgb,#ffffff 24%,transparent)">Dashboard · funil</span>
+              </div>
+              <div style="padding:18px;color:#ffffff">
+                <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;opacity:0.75;font-weight:600">Receita prevista</div>
+                <div style="font-size:26px;font-weight:600;margin-top:6px;letter-spacing:-0.01em">R$ 47.300</div>
+                <div style="display:flex;gap:6px;align-items:flex-end;height:74px;margin-top:16px">
+                  <span style="flex:1;height:38%;background:color-mix(in srgb,#ffffff 40%,transparent);border-radius:4px 4px 0 0"></span>
+                  <span style="flex:1;height:56%;background:color-mix(in srgb,#ffffff 55%,transparent);border-radius:4px 4px 0 0"></span>
+                  <span style="flex:1;height:44%;background:color-mix(in srgb,#ffffff 40%,transparent);border-radius:4px 4px 0 0"></span>
+                  <span style="flex:1;height:72%;background:color-mix(in srgb,#ffffff 70%,transparent);border-radius:4px 4px 0 0"></span>
+                  <span style="flex:1;height:88%;background:#ffffff;border-radius:4px 4px 0 0"></span>
+                  <span style="flex:1;height:64%;background:color-mix(in srgb,#ffffff 55%,transparent);border-radius:4px 4px 0 0"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--surface" data-od-id="servicos-cta">
+  <div class="wrap cta-band reveal">
+    <span class="eyebrow" style="justify-content:center">Próximo passo</span>
+    <h2 style="margin-top:16px">Sem clareza de por onde começar, a consultoria é o ponto de partida.</h2>
+    <p>Uma conversa de diagnóstico já aponta a frente certa para o seu momento, sem compromisso de fechar projeto.</p>
+    <div class="hero__actions">
+      <a href="contato.html" class="btn btn--primary btn--lg">Agendar uma conversa
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" data-od-id="site-footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="brand" aria-label="Core Technology">
+          <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="30" height="30" rx="8" fill="var(--accent)"/>
+            <path d="M22 11.5a7 7 0 1 0 0 9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="2.4" fill="#ffffff"/>
+          </svg>
+          <span><span class="brand__name">Core Technology</span><small>Tecnologia &amp; Sistemas</small></span>
+        </a>
+        <p>Consultoria, desenvolvimento com IA, automação e integração, com um portfólio próprio de SaaS e Micro-SaaS.</p>
+      </div>
+      <div>
+        <h5>Empresa</h5>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Produtos</h5>
+        <ul>
+          <li><a href="produtos.html">Catálogo</a></li>
+          <li><a href="produto-crm.html">Core Tech CRM</a></li>
+          <li><a href="produto-crm.html#planos">Planos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="mailto:contato@coretechnology.com.br">contato@coretechnology.com.br</a></li>
+          <li><a href="contato.html">Formulário de contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© <span data-year>2026</span> Core Technology. Todos os direitos reservados.</span>
+      <span>coretechnology.com.br</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js?v=3"></script>
+</body>
+</html>
